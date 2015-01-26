@@ -51,7 +51,7 @@ lastClass    | last          | 最後の要素に付与するclass
 
     $(function() {
 	    $('.targetWrapper').setClasses({
-	    	target : 'yourTargetClass',
+	    	target : '.yourTargetClass',
 	    	firstClass : 'yourFirstClass',
 	    	lastClass : 'yourLastClass'
 	    });
